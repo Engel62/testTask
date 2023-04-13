@@ -30,7 +30,7 @@ class UserTest{
     void shouldValidateCharsInEmail(){
             Assertions.assertThrows(IllegalAccessError.class,()->{
         new User(login,invalidEmail);
-        }," E-mail должен быть недействительным, чтобы вызвать исключение для прохождения теста");
+        },"E-mail должен быть недействительным, чтобы вызвать исключение для прохождения теста");
         }
 
 @Test
